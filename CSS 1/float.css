@@ -1,0 +1,40 @@
+.red{
+    background-color: red;
+    float: left;
+   
+}.blue{
+    background-color: blue;
+    float: left;
+    
+}.yellow{
+    background-color: yellow;
+     float: right;
+/*    //clear: both;*/
+/*
+    margin:50px auto;
+    box-shadow: -10px -10px 8px blue;
+    border-radius: 10px 30px 80px 2px;
+    transform: rotate(60deg);
+*/
+}.green{
+    background-color: green;
+     float: right;
+}
+.box{
+    width:100px;
+    height: 100px;
+    margin-top: 5px;
+    display: inline;
+}
+p{
+    clear: both;
+}
+span{font-weight: 900;font-family: "arial";
+/*    display: block;text-align: center;padding: 10px;*/
+/*
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+*/
+/*    display: none;*/
+}

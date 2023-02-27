@@ -1,0 +1,36 @@
+/*
+div{
+    width: 250px;
+    height: 250px;
+    border: 3px solid red;
+    //padding: 20px;
+    //padding: 40px 30px 40px 30px;
+    padding: 40px 30px;
+    //margin: 20px;
+    margin: 50px auto;
+}*/
+/* POSITIONING */
+.red{
+    background-color: red;
+    position: static;
+}.blue{
+    background-color: blue;
+    position: relative; 
+    left: 150px;
+    top: 50px;
+    
+}.yellow{
+    background-color: yellow;
+
+    position: absolute; 
+    top: 50px;
+    left: 200
+ 
+}.green{
+    background-color: green;
+    position: fixed;
+}
+.box{
+    width:100px;
+    height: 100px;
+}

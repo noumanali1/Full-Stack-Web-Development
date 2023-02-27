@@ -1,0 +1,17 @@
+body{
+    text-align: center;   
+}
+#heading{
+    color: blue;
+    font-family: "Tahoma";
+    font-size: 2em;
+    text-decoration: underline;
+}
+.headings{
+    color: red;
+    font-family: "Arial";
+    font-style: italic;
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: overline;
+}
