@@ -1,0 +1,77 @@
+.gridContainer{
+    display: grid;
+    background: black;
+    color: white;
+/*
+    justify-items: start;
+    align-items: start;
+*/
+/*    place-items: start end;*/
+/*
+    grid-template-columns: 150px 350px 150px;
+    grid-template-rows: 100px 200px 100px;
+*/
+/*    grid-template: 100px 200px 100px / 20% 30% 50%;*/
+/*    grid-template: repeat(5,100px) / repeat(3,1fr);*/
+/*    grid-template: repeat(5,150px)/repeat(auto-fit,200px);*/
+    grid-template: repeat(5,150px)/repeat(auto-fit,minmax(200px,1fr));
+    border: 2px solid red;
+/*
+    column-gap: 10px;
+    grid-row-gap: 10px
+*/
+/*    grid-gap: 10px;*/
+/*
+    grid-template-areas: 
+        "A A C"
+        "E F F"
+        "D H H"
+        "I B G";
+*/
+}
+.gridContainer div{
+    border: 1px solid grey;
+    
+}
+/*
+.gridItem1{grid-area:A; background: red;}
+.gridItem2{grid-area:B;}
+.gridItem3{grid-area: C;}
+.gridItem4{grid-area: D;background: yellow;}
+.gridItem5{grid-area: E;}
+.gridItem6{grid-area: F;background: blue;}
+.gridItem7{grid-area: G;}
+.gridItem8{grid-area: H;background: green;}
+.gridItem9{grid-area: I;}
+*/
+
+
+
+.gridItem5{
+/*    background: red;*/
+/*
+    grid-row-start: 2;
+    grid-row-end: 3;
+*/
+    
+/*
+    grid-column-start: 3;
+    grid-column-end: 4;
+*/
+/*
+    grid-row: 2 / 3;
+    grid-column: 3/4;
+*/
+/*    grid-area: row start / column start / row end / column end;*/
+/*    grid-area: 2 / 3 / 3 / 4;*/
+/*    grid-area: 2 / 2 / span 2 / span 2;*/
+}
+/*
+.gridItem1{
+    background: blue;
+    grid-area: 1 / 1 / 2 / 3;
+}
+.gridItem4{
+    background: yellow;
+    grid-area: 3 / 1 / 5 / 2;
+}*/
